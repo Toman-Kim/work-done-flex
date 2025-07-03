@@ -1,0 +1,133 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  flex-grow: 1%;
+
+}
+img.icon {
+  height: 36px;
+  width: 35px;
+  border: 2px solid #ffffff;
+  border-radius: 15%;
+  margin: -18px 0px 5px 15px;
+  position: inherit;
+  left: 30px;
+  top: 10px;
+}
+i {
+  margin: 5pt 5pt 5pt 15pt;
+  justify-items: self-end;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  min-height: 230px;
+  width: 230px;
+  margin: 10px;
+  border: white;
+  border-radius: 6%;
+  background: rgb(81, 92, 108);
+  
+}
+body {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border: 8px solid #000000;
+  justify-content: space-around;
+  background: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: normal;
+}
+#top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: right;
+  align-items: baseline;
+  height: fit-content;
+  width: 100%;
+  border: #ffffff 1pt;
+  background-color: #000000;
+}
+P {
+  font-weight: 400;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+p.note-header {
+  color: rgb(69, 69, 250);
+  font-weight: 510;
+}
+hr {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  opacity: 0.2;
+}
+h1 {
+  font-size: 15px;
+  margin: 10px;
+}
+h1.top {
+  margin-left: 50px;
+  font-size: 20px;
+}
+.item-header {
+  height: 35px;
+  width: 230px;
+  background-color: #047dac;
+  border: #ffffff 2pxs;
+  display: flex;
+  flex-direction: row;
+  border-radius: 18% 18% 0% 0%;
+  margin: 0%;
+
+}
+#c-plus-icon {
+  background-color: #047dac;
+}
+#python-icon,
+#python-header {
+  background-color: #f7cd00;
+}
+
+#js-header,
+#js-icon {
+  background-color: rgb(176, 176, 11);
+}
+
+#java-header,
+#java-icon {
+  background-color: #e45b64;
+}
+
+#c-sharp-header,
+#c-sharp-icon {
+  background-color: #b14796;
+}
+
+#html-header,
+#html-icon {
+  background-color: #ff4b00;
+}
+
+#php-header,
+#php-icon {
+  background-color: rgb(209, 134, 209);
+}
+
+#sql-icon {
+  background-color: #047dac;
+}
